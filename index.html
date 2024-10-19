@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antinna Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Main content styling */
+        main {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Section titles */
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            border-bottom: 3px solid #4a90e2;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* Project list */
+        .projects .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .projects .project h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .projects .project a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .projects .project a:hover {
+            text-decoration: underline;
+        }
+
+        .projects .project p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Status Labels */
+        .status-active {
+            color: #28a745; /* Maintained - Green */
+            font-weight: bold;
+        }
+
+        .status-wip {
+            color: #f39c12; /* WIP - Orange */
+            font-weight: bold;
+        }
+
+        /* Sponsorship section */
+        .sponsorships {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+        }
+
+        .sponsorships p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .sponsorships img {
+            margin-top: 20px;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .sponsorships a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .sponsorships a:hover {
+            text-decoration: none;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Antinna Open Source Projects</h1>
+        <p>Explore our open-source contributions and projects.</p>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2>Our Projects</h2>
+
+            <div class="project">
+                <h3><a href="https://github.com/Antinna/antinna_ui_kit" target="_blank">Antinna UI Kit</a></h3>
+                <p>Status: <span class="status-active">Maintained</span></p>
+                <p>Maintained by: 
+                    <a href="https://github.com/Manishmg3994" target="_blank">@Manishmg3994</a>
+                </p>
+                <p>Available on Pub.dev: <a href="https://pub.dev/packages/antinna_ui_kit" target="_blank">Antinna UI Kit</a></p>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://github.com/Antinna/singleton_macro" target="_blank">Singleton Macro</a></h3>
+                <p>Status: <span class="status-active">Maintained</span></p>
+                <p>Maintained by: 
+                    <a href="https://github.com/Manishmg3994" target="_blank">@Manishmg3994</a> and 
+                    <a href="https://github.com/mg3994" target="_blank">@mg3994</a>
+                </p>
+                <p>Available on Pub.dev: <a href="https://pub.dev/packages/singleton_macro" target="_blank">Singleton Macro</a></p>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://github.com/antinna/equatable_macro" target="_blank">Equatable Macro</a></h3>
+                <p>Status: <span class="status-wip">WIP</span></p>
+                <p>Maintained by: 
+                    <a href="https://github.com/Manishmg3994" target="_blank">@Manishmg3994</a> and 
+                    <a href="https://github.com/mg3994" target="_blank">@mg3994</a>
+                </p>
+                <p>Available on Pub.dev: <a href="https://pub.dev/packages/equatable_macro" target="_blank">Equatable Macro</a></p>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://github.com/Antinna/monorepo" target="_blank">Monorepo</a></h3>
+                <p>Status: <span class="status-wip">WIP</span></p>
+                <p>Upcoming project.</p>
+            </div>
+        </section>
+
+        <!-- Sponsorships Section -->
+        <section class="sponsorships">
+            <h2>Sponsorships</h2>
+            <p>Your support helps us continue building amazing open-source projects.</p>
+            <p>Sponsor us on: <a href="https://github.com/manishmg3994" target="_blank">GitHub Sponsors</a></p>
+            <p>Scan to send via UPI:</p>
+            <img src="https://raw.githubusercontent.com/Manishmg3994/Payment/refs/heads/main/qr/upiqr.jpg" alt="UPI QR Code">
+            <p>UPI Link: <a href="upi://pay?pa=8607573994@ptyes&pn=Manish&cu=INR">UPI LINK</a></p>
+            <p>For Paytm users, send money via: <a href="https://paytm.me/s-HeOjZ" target="_blank">Paytm Link</a></p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Antinna Open Source Projects © 2024. All rights reserved. | <a href="https://github.com/Antinna" target="_blank">Visit us on GitHub</a></p>
+    </footer>
+</body>
+</html>
